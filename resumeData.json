@@ -2,9 +2,9 @@
   "main": {
     "name":"Vítor Cunha",
     "occupation":"Software Developer",
-    "description":"I am studying information systems at UFSC and working at e3c Tecnologia",
+    "description":"I am studying information systems at UFSC and working at E3C Tecnologia",
     "image":"polo_bonitin.png",
-    "bio":"I have been working with python and django for almost 2 years, i also have familiarity with java, js, html and css."
+    "bio":"I have been working with python and django for almost 2 years, I also have familiarity with java, js, html and css."
 ,    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "vitorrcunhaa@gmail.com",
     "phone": "(48) 999992643",
@@ -14,6 +14,18 @@
     },
     "website": "http://www.timbakerdev.com",
     "resumedownload":"http://timbakerdev.com",
+    "socialmain": [
+      {
+        "name":"whatsapp",
+        "url":"https://wa.me/5548999992643?text=I%20saw%20your%20website.%20I'm%20interested%20in...",
+        "className":"fab fa-whatsapp"
+      },
+      {
+        "name":"e-mail",
+        "url":"mailto:vitorrcunhaa@gmail.com?Subject=Hello%20Vitor",
+        "className":"fas fa-envelope"
+      }
+    ],
     "social":[
       {
         "name":"linkedin",
@@ -34,16 +46,11 @@
         "name":"skype",
         "url":"https://join.skype.com/invite/w5rP5JbGsEtK",
         "className":"fa fa-skype"
-      },
-      {
-        "name":"whatsapp",
-        "url":"https://wa.me/5548999992643?text=I%20saw%20your%20website.%20I'm%20interested%20in...",
-        "className":"fab fa-whatsapp"
       }
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage":"",
     "education":[
       {
         "school":"Universidade Federal de Santa Catarina",
@@ -54,46 +61,60 @@
     ],
     "work":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2010 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"E3C Tecnologia",
+        "title":"Backend Developer ",
+        "years":"April 2018 - Present",
+        "description":"I learned and I'm still learning a lot here. I believe the quality of my code has improved a lot after I started working here, being surrounded by very intelligent people who know how to share their knowledge. I work mainly with backend, but I also have a lot of contact with fronted languages and frameworks. Tech and languages i use here: python, django, go, html / css / less / js, mustachejs, backbone etc."
       },
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2007 - February 2010",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"AgileProcess",
+        "title":"Backend Developer",
+        "years":"January 2017 - December 2017",
+        "description":"Here was when I got out of from nothing to something. I learned Python and Django, improved Java skills and build/updated APIs. I also had contact with customer support and acquired a lot of knowledge in logistics and transportation."
+      },
+      {
+        "company":"Ayty Tech",
+        "title":"PMO assistant",
+        "years":"June  2015 - January 2016",
+        "description":"Acting in the PMO (Project Management Office) area. Activities:\nDemand planning. Daily and weekly performance monitoring of database and software development teams, monitoring and control of demands and projects. It covers the general part of company processes."
       }
     ],
     "skills":[
       {
-        "name":"Git",
+        "name":"Python",
+        "level":"70%"
+      },
+      {
+        "name":"Django",
+        "level":"70%"
+      },
+      {
+        "name":"Java",
         "level":"60%"
       },
       {
-        "name":"Illustrator",
-        "level":"55%"
+        "name":"ReactJs",
+        "level":"40%"
       },
       {
-        "name":"ReactJs",
-        "level":"50%"
+        "name":"Javascript",
+        "level":"40%"
       },
       {
         "name":"CSS",
-        "level":"90%"
+        "level":"40%"
       },
       {
-        "name":"HTML5",
-        "level":"80%"
+        "name":"HTML",
+        "level":"40%"
       },
       {
-        "name":"VueJs",
+        "name":"Git",
         "level":"50%"
       },
       {
-        "name":"MongoDB",
-        "level":"80%"
+        "name":"SQL",
+        "level":"40%"
       }
     ]
   },
