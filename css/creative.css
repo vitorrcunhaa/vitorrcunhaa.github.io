@@ -9663,10 +9663,17 @@ header.masthead {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+  height: 100vh;
 }
 
 header.masthead h1 {
   font-size: 2.25rem;
+}
+
+@media (max-width: 520px) {
+  header.masthead h1 {
+    font-size: 1.75rem;
+  }
 }
 
 @media (min-width: 992px) {
@@ -9680,13 +9687,13 @@ header.masthead h1 {
     font-size: 1.15rem;
   }
   header.masthead h1 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 }
 
 @media (min-width: 1200px) {
   header.masthead h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
 }
 
