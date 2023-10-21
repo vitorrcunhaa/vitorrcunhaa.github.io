@@ -84,8 +84,11 @@
               <hr class="divider my-4">
             </div>
             <div class="col-lg-8 align-self-baseline">
-              <p class="text-white-75 font-weight-light mb-5">I'm a Software Developer based in Florianópolis/Brazil. I am finishing information systems bachelor's at UFSC and working from home
-                 at <a href="https://www.bairesdev.com/">Bairesdev</a>.
+              <p class="text-white-75 font-weight-light mb-5">
+                I'm a full stack developer with 8 years of experience and a bachelor's degree
+                in computer information systems at <a href="https://sin.ufsc.br/sobre-o-curso/pedagogico/" target="_blank">UFSC</a>.
+                I'm a high performer at a big US health company in the US, working remotely at
+                <a href="https://www.bairesdev.com/" target="_blank">Bairesdev</a>.
               </p>
               <div class="row mb-3" style="justify-content: center;">
                   <div class="col text-center">
@@ -99,13 +102,13 @@
                 </div>
                 <div class="row" style="justify-content: center; margin-bottom: 2rem;">
                     <div class="col text-center">
-                        <a href="https://www.linkedin.com/in/vitor-de-souza-cunha-791a299b" style="padding-right: 8%;">
+                        <a href="https://www.linkedin.com/in/vitorrcunhaa/" target="_blank" style="padding-right: 8%;">
                           <i class="fab fa-linkedin fa-2x mb-3 text-white-75"></i>
                         </a>
-                        <a href="http://instagram.com/vitorrcunhaa" style="padding-right: 8%;">
+                        <a href="http://instagram.com/vitorrcunhaa" target="_blank" style="padding-right: 8%;">
                           <i class="fab fa-instagram fa-2x mb-3 text-white-75"></i>
                         </a>
-                        <a href="https://github.com/vitorrcunhaa" style="padding-right: 8%;">
+                        <a href="https://github.com/vitorrcunhaa" target="_blank" style="padding-right: 8%;">
                           <i class="fab fa-github fa-2x mb-3 text-white-75"></i>
                         </a>
                         <a href="https://join.skype.com/invite/w5rP5JbGsEtK">
@@ -125,13 +128,23 @@
           <div class="row justify-content-center">
             <div class="col-lg-8 text-center">
               <h2 class="text-white mb-4" style="padding-bottom: 3%;">A little about myself</h2>
-              <p class="text-white mb-4" style="padding-bottom: 5%; line-height: 27px">I have been working with python and django for almost 6 years,
-                I also have familiarity with SQL, javascript, java, html, css, and a couple frontend frameworks.
-                Cloud wise, I've used AWS, GCP and Heroku.
-                I'm also interested in the devops area, I'm studying some of it. I will graduate in information systems at the Universidade Federal de Santa Catarina (UFSC) in late 2021.
-                I like the sun, sports, music and also learning new stuff (specially in tech).
+              <p class="text-white mb-4" style="padding-bottom: 5%; line-height: 27px">I have been working with python and django for almost 8 years,
+                I've also worked with javascript/typescript, html, css, a bunch frontend frameworks, PostgreSQL, MySQL, NoSQL DBs and java.
+                Cloud wise, I've used AWS, GCP and Heroku. I've also touched areas of caching, logging, messaging, monitoring, and CI/CD.
+                I'm always studying and learning new stuff in tech almost every day.
               </p>
-              <a class="btn btn-light btn-xl js-scroll-trigger" href="#resume">Resume</a>
+              <a class="btn btn-light btn-xl js-scroll-trigger mt-4" href="#resume">Go to Resume</a>
+              &nbsp;
+              <button class="btn btn-light btn-xl mt-4" onclick="downloadResume()">Download as PDF</button>
+                <script>
+                    function downloadResume() {
+                        var resumeURL = 'pdf/Resume - Vítor Cunha.pdf';
+                        var link = document.createElement('a');
+                        link.href = resumeURL;
+                        link.download = 'pdf/Resume - Vítor Cunha.pdf';
+                        link.click();
+                    }
+                </script>
             </div>
           </div>
         </div>
@@ -147,7 +160,7 @@
                   <a href="https://ufsc.br/"><img style="margin-bottom: 6%;" src="img/logo_ufsc.png" height="50%" width="50%" alt=""></a>
                 <h3 class="h4 mb-2">UFSC</h3>
                 <br>
-                <p class="text-muted mb-0">Information Systems at Universidade Federal de Santa Catarina 2014-2021</p>
+                <p class="text-muted mb-0">Information Systems at Universidade Federal de Santa Catarina 2014-2022</p>
               </div>
             </div>
           </div>
@@ -252,6 +265,7 @@
       <section id="portfolio">
         <hr class="divider my-4">
         <h2 class="text-center mt-5">Portfolio</h2>
+        <p class="text-center mt-3">Some freelancing jobs I've done from 2019 to 2020.</p>
         <br>
         <br>
         <div class="container">
@@ -399,13 +413,13 @@
           </div>
           <div class="row" style="justify-content: center;">
               <div class="col-lg-4 text-center mb-5 mb-lg-0">
-                  <a href="https://www.linkedin.com/in/vitor-de-souza-cunha-791a299b" style="padding-right: 8%;">
+                  <a href="https://www.linkedin.com/in/vitorrcunhaa/" target="_blank" style="padding-right: 8%;">
                     <i class="fab fa-linkedin fa-2x mb-3"></i>
                   </a>
-                  <a href="http://instagram.com/vitorrcunhaa" style="padding-right: 8%;">
+                  <a href="http://instagram.com/vitorrcunhaa" target="_blank" style="padding-right: 8%;">
                     <i class="fab fa-instagram fa-2x mb-3"></i>
                   </a>
-                  <a href="https://github.com/vitorrcunhaa" style="padding-right: 8%;">
+                  <a href="https://github.com/vitorrcunhaa" target="_blank" style="padding-right: 8%;">
                     <i class="fab fa-github fa-2x mb-3"></i>
                   </a>
                   <a href="https://join.skype.com/invite/w5rP5JbGsEtK">
